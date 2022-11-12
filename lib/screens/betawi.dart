@@ -49,6 +49,8 @@ class _betawiState extends State<betawi> {
                   Expanded(
                       flex: 3,
                       child: Card(
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(15)),
                         color: pri,
                         child: Container(
                           width: double.infinity,
@@ -109,7 +111,7 @@ class _betawiState extends State<betawi> {
               Text("Makanan",
                   style: TextStyle(
                       fontSize: 18,
-                      fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.w500,
                       fontFamily: "Poppins")),
               Spacer(),
               Icon(
@@ -119,6 +121,7 @@ class _betawiState extends State<betawi> {
               )
             ],
           ),
+          MyTheme.mediumVerticalPadding,
           GridView.builder(
             itemCount: MenuModel.menuBetawi.length,
             shrinkWrap: true,

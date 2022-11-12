@@ -49,7 +49,9 @@ class _dessertState extends State<dessert> {
                   Expanded(
                       flex: 3,
                       child: Card(
-                        color: pri,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(15)),
+                        de
                         child: Container(
                           width: double.infinity,
                         ),
@@ -119,6 +121,7 @@ class _dessertState extends State<dessert> {
               )
             ],
           ),
+          MyTheme.mediumVerticalPadding,
           GridView.builder(
             itemCount: MenuModel.menuDessert.length,
             shrinkWrap: true,
@@ -142,8 +145,6 @@ class _dessertState extends State<dessert> {
       ),
     );
   }
-
-  
 }
 
 class MyTheme {
