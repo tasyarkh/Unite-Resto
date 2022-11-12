@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:unite_resto/style/style.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/link.dart';
+
 
 class pesan extends StatelessWidget {
   final String foodName;
@@ -155,7 +157,7 @@ class pesan extends StatelessWidget {
                                   ScaffoldMessenger.of(context).showSnackBar(
                                     const SnackBar(
                                       content: Text(
-                                          "WhatsApp belum di install di device ini"),
+                                          "WhatsApp Tidak Terdeteksi"),
                                     ),
                                   );
                                 }

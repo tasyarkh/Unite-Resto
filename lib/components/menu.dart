@@ -88,7 +88,7 @@ class MenuModel {
         phone: ''),
     MenuModel(
         foodName: 'Dimsum',
-        foodImage: 'assets/img/dm.png',
+        foodImage: 'assets/img/dm.jpg',
         foodDesk:
             'Jenis pangsit kukus berukuran kecil, populer di kawasan Shanghai, Changzou, Wuxi, serta bagian selatan hilir Yangtze River. Makanan ini dikukus dalam kukusan bernama xiaolong.\n Bahan - bahan : \n -Filet Ayam\n -Udang\n -Tepung Tapioka\n -Bawang Putih\n -Minyak Wijen\n -Kecap Asin & Saus Tiram\n -Kaldu Jamur\n -Garam\n -Gula Pasir\n -Lada Bubuk\n -Daun Bawang  ',
         foodPrice: '15K',

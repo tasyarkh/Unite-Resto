@@ -16,6 +16,8 @@ class _bodyState extends State<body> {
 
   @override
   Widget build(BuildContext context) {
+  dynamic screenWidth = MediaQuery.of(context).size.width;
+
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
@@ -86,7 +88,7 @@ class SearchInput extends StatelessWidget {
       padding:
           const EdgeInsets.only(top: 8.0, left: 25.0, right: 25.0, bottom: 8.0),
       child: Container(
-        width: 250,
+        width: MediaQuery.of(context).size.width,
         height: 50,
         decoration: BoxDecoration(
             boxShadow: [
