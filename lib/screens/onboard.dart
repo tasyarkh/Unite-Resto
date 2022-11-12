@@ -1,6 +1,4 @@
 import 'dart:io';
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'home.dart';
 

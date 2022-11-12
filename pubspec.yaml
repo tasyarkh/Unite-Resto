@@ -71,6 +71,9 @@ flutter:
     - assets/img/fs.png
     - assets/img/dm.png
     - assets/img/sc.png
+    - assets/img/Ls.jpeg
+    - assets/img/Gd.jpeg
+    - assets/img/Ab.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:unite_resto/style/style.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -35,7 +37,10 @@ class pesan extends StatelessWidget {
             Expanded(
               flex: 35,
               child: Center(
-                child: Image.asset(foodImage),
+                child: Image.asset(
+                  foodImage,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
             const Spacer(
@@ -85,17 +90,19 @@ class pesan extends StatelessWidget {
                       ),
                       MyTheme.largeVerticalPadding,
                       Container(
-                        width: 80,
-                        height: 80,
+                        height: 70,
                         decoration: BoxDecoration(
-                            borderRadius:
-                                const BorderRadius.all(Radius.circular(8)),
+                            borderRadius: const BorderRadius.only(
+                                topLeft: Radius.circular(15),
+                                topRight: Radius.circular(5),
+                                bottomLeft: Radius.circular(5),
+                                bottomRight: Radius.circular(15)),
                             border: Border.all(
                               color: pri.withOpacity(0.32),
                               width: 2,
                             )),
                         padding: const EdgeInsets.only(
-                          top: 26,
+                          top: 21,
                           left: 150,
                         ),
                         child: Text(
@@ -143,7 +150,7 @@ class pesan extends StatelessWidget {
                               ),
                               onPressed: () async {
                                 var whatsapplink = Uri.parse(
-                                    'whatsapp://send?phone=6287875908732&text=Saya%20Pesan%20');
+                                    'whatsapp://send?phone=62895328483971&text=Saya%20Pesan%20');
                                 if (await canLaunchUrl(whatsapplink)) {
                                   await launchUrl(whatsapplink);
                                 } else {

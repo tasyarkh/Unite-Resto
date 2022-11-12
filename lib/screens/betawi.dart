@@ -51,11 +51,12 @@ class _betawiState extends State<betawi> {
                       child: Card(
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15)),
-                        color: pri,
+                        color: Colors.transparent,
                         child: Container(
                           width: double.infinity,
-                          decoration: const BoxDecoration(
-                              gradient: LinearGradient(colors: [pri, sec])),
+                          decoration: BoxDecoration(
+                              gradient: LinearGradient(colors: [pri, sec]),
+                              borderRadius: BorderRadius.circular(15)),
                         ),
                       ))
                 ],

@@ -49,13 +49,14 @@ class _mencourseState extends State<mencourse> {
                   Expanded(
                       flex: 3,
                       child: Card(
-                        color: pri,
+                        color: Colors.transparent,
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15)),
                         child: Container(
                           width: double.infinity,
-                          decoration: const BoxDecoration(
-                              gradient: LinearGradient(colors: [pri, sec])),
+                          decoration: BoxDecoration(
+                              gradient: LinearGradient(colors: [pri, sec]),
+                              borderRadius: BorderRadius.circular(15)),
                         ),
                       ))
                 ],
