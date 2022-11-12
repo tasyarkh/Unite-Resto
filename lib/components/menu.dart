@@ -28,7 +28,7 @@ class MenuModel {
         phone: ''),
     MenuModel(
         foodName: 'Salad Buah',
-        foodImage: 'assets/img/des.png',
+        foodImage: 'assets/img/Sbh.jpeg',
         foodDesk:
             'Salad buah atau disebut juga koktil buah adalah makanan yang dibuat dari potongan buah dan sirup, dan disajikan dingin.\nBahan - bahan : \n -Buah - buahan \n -Yougourt Plain \n -Mayonais \n -Susu Kental Manis \n -Keju Cheddar',
         foodPrice: '15K',
@@ -104,7 +104,7 @@ class MenuModel {
         phone: ''),
     MenuModel(
         foodName: 'Kroket',
-        foodImage: 'assets/img/des.png',
+        foodImage: 'assets/img/Kr.jpeg',
         foodDesk:
             'kroket adalah sebuah makanan yang terdiri dari ragout yang dilapisi dengan putih telur dan tepung panir lalu digoreng.',
         foodPrice: '',
@@ -112,7 +112,7 @@ class MenuModel {
         phone: ''),
     MenuModel(
         foodName: 'Tahu Crispy',
-        foodImage: 'assets/img/des.png',
+        foodImage: 'assets/img/Tc.jpeg',
         foodDesk:
             'Tahu Cokelat yang digoreng cera deep fried agar menghasilkan tekstur tahu yang crispy',
         foodPrice: '',
@@ -127,7 +127,7 @@ class MenuModel {
         phone: ''),
     MenuModel(
         foodName: 'Pastel',
-        foodImage: 'assets/img/des.png',
+        foodImage: 'assets/img/Pt.jpeg',
         foodDesk:
             'pastri yang dibuat dengan meletakkan isian di atas adonan, lalu dilipat dan ditutup rapat. Pastel dapat terasa manis atau gurih tergantung dari isian',
         foodPrice: '',

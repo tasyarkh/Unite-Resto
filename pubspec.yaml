@@ -78,6 +78,11 @@ flutter:
     - assets/img/Nu.jpeg
     - assets/img/Sb.jpeg
     - assets/img/Nb.jpeg
+    - assets/img/Sbh.jpeg
+    - assets/img/Pt.jpeg
+    - assets/img/Tc.jpeg
+    - assets/img/Kr.jpeg
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
