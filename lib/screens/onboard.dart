@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:js';
 
 import 'package:flutter/material.dart';
 import 'home.dart';
@@ -8,6 +9,9 @@ class onboard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    dynamic screenHeight = MediaQuery.of(context).size.height;
+    dynamic screenWidth = MediaQuery.of(context).size.width;
+
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
@@ -18,7 +22,7 @@ class onboard extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               RichText(
-                  text: TextSpan(
+                  text: const TextSpan(
                       text: "RPL",
                       style: TextStyle(
                           color: Colors.orange,
@@ -31,7 +35,7 @@ class onboard extends StatelessWidget {
                 onPressed: () => exit(0),
               ),
               RichText(
-                  text: TextSpan(
+                  text: const TextSpan(
                       text: "IPA",
                       style: TextStyle(
                           color: Colors.purple,
@@ -49,7 +53,7 @@ class onboard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Padding(
-                padding: EdgeInsets.only(
+                padding: const EdgeInsets.only(
                   top: 40,
                   bottom: 50,
                 ),
@@ -60,7 +64,7 @@ class onboard extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: EdgeInsets.only(
+                padding: const EdgeInsets.only(
                   left: 50,
                   right: 50,
                   top: 40,

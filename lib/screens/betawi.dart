@@ -54,6 +54,8 @@ class _betawiState extends State<betawi> {
                         color: pri,
                         child: Container(
                           width: double.infinity,
+                          decoration: const BoxDecoration(
+                              gradient: LinearGradient(colors: [pri, sec])),
                         ),
                       ))
                 ],

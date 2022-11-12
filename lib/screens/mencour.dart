@@ -50,8 +50,12 @@ class _mencourseState extends State<mencourse> {
                       flex: 3,
                       child: Card(
                         color: pri,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(15)),
                         child: Container(
                           width: double.infinity,
+                          decoration: const BoxDecoration(
+                              gradient: LinearGradient(colors: [pri, sec])),
                         ),
                       ))
                 ],
@@ -119,6 +123,7 @@ class _mencourseState extends State<mencourse> {
               )
             ],
           ),
+          MyTheme.mediumVerticalPadding,
           GridView.builder(
             itemCount: MenuModel.menuMencourse.length,
             shrinkWrap: true,
@@ -142,7 +147,6 @@ class _mencourseState extends State<mencourse> {
       ),
     );
   }
-
 }
 
 class MyTheme {
