@@ -25,7 +25,7 @@ class MenuModel {
             'Fruit sandwich atau yang juga dikenal dengan sebutan fruit sando adalah sandwich yang menggunakan bahan isian berupa krim kocok dan potongan buah segar\nBahan-Bahan:\n -Roti Tawar\n -Buah\n -Susu Kental Manis\n -Whipe Cream',
         foodPrice: '20K',
         kel: 'kelompok 8',
-        phone: ''),
+        phone: '6289681998961'),
     MenuModel(
         foodName: 'Salad Buah',
         foodImage: 'assets/img/Sbh.jpeg',
@@ -33,7 +33,7 @@ class MenuModel {
             'Salad buah atau disebut juga koktil buah adalah makanan yang dibuat dari potongan buah dan sirup, dan disajikan dingin.\nBahan - bahan : \n -Buah - buahan \n -Yougourt Plain \n -Mayonais \n -Susu Kental Manis \n -Keju Cheddar',
         foodPrice: '15K',
         kel: 'Kelompok 6',
-        phone: ''),
+        phone: '62818415368'),
     MenuModel(
         foodName: 'Pudding Oreo',
         foodImage: 'assets/img/des.png',

@@ -16,7 +16,7 @@ class _bodyState extends State<body> {
 
   @override
   Widget build(BuildContext context) {
-  dynamic screenWidth = MediaQuery.of(context).size.width;
+    dynamic screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
       body: SafeArea(
@@ -84,11 +84,14 @@ class SearchInput extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    dynamic screenHeight = MediaQuery.of(context).size.height;
+    dynamic screenWidth = MediaQuery.of(context).size.width;
+
     return Padding(
       padding:
           const EdgeInsets.only(top: 8.0, left: 25.0, right: 25.0, bottom: 8.0),
       child: Container(
-        width: MediaQuery.of(context).size.width,
+        width: screenWidth,
         height: 50,
         decoration: BoxDecoration(
             boxShadow: [
@@ -104,7 +107,7 @@ class SearchInput extends StatelessWidget {
                 topRight: Radius.circular(3),
                 bottomLeft: Radius.circular(3),
                 bottomRight: Radius.circular(15))),
-        padding: const EdgeInsets.only(top: 15, left: 30),
+        padding: const EdgeInsets.only(top: 15, left: 40),
         child: const Text(
           "Science Tech Prestasi Prima",
           style: TextStyle(
@@ -123,10 +126,13 @@ class PromoCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    dynamic screenHeight = MediaQuery.of(context).size.height;
+    dynamic screenWidth = MediaQuery.of(context).size.width;
+
     return Padding(
       padding: const EdgeInsets.all(25.0),
       child: Container(
-        width: MediaQuery.of(context).size.width,
+        width: screenWidth,
         height: 150,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15),

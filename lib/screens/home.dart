@@ -8,13 +8,20 @@ class home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    dynamic screenHeight = MediaQuery.of(context).size.height;
+    dynamic screenWidth = MediaQuery.of(context).size.width;
+
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(60),
         child: homeAppBar(),
       ),
-      body: body(),
+      body: SizedBox(
+        height: screenHeight,
+        width: screenWidth,
+        child: body(),
+      ),
     );
   }
 }

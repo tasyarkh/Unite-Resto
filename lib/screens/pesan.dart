@@ -3,7 +3,6 @@ import 'package:unite_resto/style/style.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:url_launcher/link.dart';
 
-
 class pesan extends StatelessWidget {
   final String foodName;
   final String foodImage;
@@ -19,8 +18,12 @@ class pesan extends StatelessWidget {
       required this.foodDesk,
       required this.foodPrice,
       required this.kelompok,
-      required this.phone})
-      : super(key: key);
+      required this.phone});
+
+ 
+
+  void _launchURL(String _url) async =>
+      await canLaunch(_url) ? await launch(_url) : throw 'Whatsapp Not Available$_url';
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +60,7 @@ class pesan extends StatelessWidget {
                     borderRadius:
                         BorderRadius.vertical(top: Radius.circular(32.0))),
                 child: Padding(
-                  padding: const EdgeInsets.all(16),
+                  padding: const EdgeInsets.all(20),
                   child: ListView(
                     controller: scrollController,
                     children: [
@@ -93,18 +96,16 @@ class pesan extends StatelessWidget {
                         height: 70,
                         decoration: BoxDecoration(
                             borderRadius: const BorderRadius.only(
-                                topLeft: Radius.circular(15),
-                                topRight: Radius.circular(5),
-                                bottomLeft: Radius.circular(5),
-                                bottomRight: Radius.circular(15)),
+                                topLeft: Radius.circular(3),
+                                topRight: Radius.circular(100),
+                                bottomLeft: Radius.circular(3),
+                                bottomRight: Radius.circular(100)),
                             border: Border.all(
-                              color: pri.withOpacity(0.32),
+                              color: act,
                               width: 2,
                             )),
-                        padding: const EdgeInsets.only(
-                          top: 21,
-                          left: 150,
-                        ),
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 20, horizontal: 30),
                         child: Text(
                           kelompok,
                           style: const TextStyle(
@@ -148,20 +149,8 @@ class pesan extends StatelessWidget {
                                 ),
                                 backgroundColor: MaterialStateProperty.all(pri),
                               ),
-                              onPressed: () async {
-                                var whatsapplink = Uri.parse(
-                                    'whatsapp://send?phone=62895328483971&text=Saya%20Pesan%20');
-                                if (await canLaunchUrl(whatsapplink)) {
-                                  await launchUrl(whatsapplink);
-                                } else {
-                                  ScaffoldMessenger.of(context).showSnackBar(
-                                    const SnackBar(
-                                      content: Text(
-                                          "WhatsApp Tidak Terdeteksi"),
-                                    ),
-                                  );
-                                }
-                              },
+                              onPressed: () => _launchURL(
+                                  'https://api.whatsapp.com/send?phone=$phone&text=Saya%20pesan%20$foodName'),
                             ),
                           ),
                         ],
