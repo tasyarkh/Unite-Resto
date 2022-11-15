@@ -20,10 +20,9 @@ class pesan extends StatelessWidget {
       required this.kelompok,
       required this.phone});
 
- 
-
-  void _launchURL(String _url) async =>
-      await canLaunch(_url) ? await launch(_url) : throw 'Whatsapp Not Available$_url';
+  void _launchURL(String _url) async => await canLaunch(_url)
+      ? await launch(_url)
+      : throw 'Whatsapp Not Available$_url';
 
   @override
   Widget build(BuildContext context) {
@@ -150,7 +149,7 @@ class pesan extends StatelessWidget {
                                 backgroundColor: MaterialStateProperty.all(pri),
                               ),
                               onPressed: () => _launchURL(
-                                  'https://api.whatsapp.com/send?phone=$phone&text=Saya%20pesan%20$foodName'),
+                                  'https://api.whatsapp.com/send?phone=$phone&text=Haloo%20Saya%20Ingin%20pesan%20$foodName'),
                             ),
                           ),
                         ],

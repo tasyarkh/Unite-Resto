@@ -27,34 +27,10 @@ class MenuModel {
         kel: 'kelompok 8',
         phone: '6289681998961'),
     MenuModel(
-        foodName: 'Salad Buah',
-        foodImage: 'assets/img/Sbh.jpeg',
-        foodDesk:
-            'Salad buah atau disebut juga koktil buah adalah makanan yang dibuat dari potongan buah dan sirup, dan disajikan dingin.\nBahan - bahan : \n -Buah - buahan \n -Yougourt Plain \n -Mayonais \n -Susu Kental Manis \n -Keju Cheddar',
-        foodPrice: '15K',
-        kel: 'Kelompok 6',
-        phone: '62818415368'),
-    MenuModel(
-        foodName: 'Pudding Oreo',
-        foodImage: 'assets/img/des.png',
-        foodDesk:
-            'Puding merupakan sajian penutup, yang dibuat dari krim atau susu, dimasak dengan tepung yang bersifat mudah mengental.\nBahan - bahan :\n Oreo\n Gula\n Susu full cream\n Bubuk coklat',
-        foodPrice: '',
-        kel: 'Kelompok 9',
-        phone: ''),
-    MenuModel(
         foodName: 'Churros',
         foodImage: 'assets/img/des.png',
         foodDesk:
             ' Tekstur churros sendiri crunchy dan biasanya ditaburi dengan gula kayu manis atau dicelupkan di cokelat.\nBahan - bahan:\n -Susu UHT\n -Butter\n -Tepung Cakra\n -Garam\n -Telur\n -Gula halus\n -Bubuk kayu manis\n -Selai coklat',
-        foodPrice: '',
-        kel: 'Kelompok 1',
-        phone: ''),
-    MenuModel(
-        foodName: 'Cookies Oreo',
-        foodImage: 'assets/img/des.png',
-        foodDesk:
-            'Cookies merupakan makanan manis dan bentuknya kecil-kecil, biasanya ditambahkan minyak/lemah untuk melembutkan tekstur dan membuatnya semakin renyah.\nBahan - bahan:\n -Mentega Tawar\n -Gula Kastor\n -Telur\n -Garam\n -Vanila Ekstrak\n -Baking soda\n -Oreo',
         foodPrice: '',
         kel: 'Kelompok 1',
         phone: ''),
@@ -78,22 +54,6 @@ class MenuModel {
 
   //Mencourse Menu
   static final List<MenuModel> menuMencourse = [
-    MenuModel(
-        foodName: 'Fetthucine Aglio Olio',
-        foodImage: 'assets/img/fs.png',
-        foodDesk:
-            'Mi pipih yang terbuat dari campuran telur dan tepung terigu , lebih lebar tetapi mirip dengan tagliatelle khas Bologna.\n Bahan - bahan :\n -Fettucine\n -Daun Parsley\n -Bawang Putih\n -Minyak\n -Sosis,Jamur,Daging\n -Cabai\n -Merica ',
-        foodPrice: '20K',
-        kel: 'kelompok 2',
-        phone: ''),
-    MenuModel(
-        foodName: 'Dimsum',
-        foodImage: 'assets/img/dm.jpg',
-        foodDesk:
-            'Jenis pangsit kukus berukuran kecil, populer di kawasan Shanghai, Changzou, Wuxi, serta bagian selatan hilir Yangtze River. Makanan ini dikukus dalam kukusan bernama xiaolong.\n Bahan - bahan : \n -Filet Ayam\n -Udang\n -Tepung Tapioka\n -Bawang Putih\n -Minyak Wijen\n -Kecap Asin & Saus Tiram\n -Kaldu Jamur\n -Garam\n -Gula Pasir\n -Lada Bubuk\n -Daun Bawang  ',
-        foodPrice: '15K',
-        kel: 'Kelompok 3',
-        phone: ''),
     MenuModel(
         foodName: 'Risol Mayo',
         foodImage: 'assets/img/des.png',
@@ -142,9 +102,9 @@ class MenuModel {
         foodImage: 'assets/img/Sb.jpeg',
         foodDesk:
             'pastri yang dibuat dengan meletakkan isian di atas adonan, lalu dilipat dan ditutup rapat. Pastel dapat terasa manis atau gurih tergantung dari isian',
-        foodPrice: '20K',
+        foodPrice: '25K',
         kel: 'kelompok 1',
-        phone: ''),
+        phone: '6281804832206'),
     MenuModel(
         foodName: 'Nasi Bakar',
         foodImage: 'assets/img/Nb.jpeg',
@@ -152,31 +112,31 @@ class MenuModel {
             'nasi yang diberi beberapa bumbu dan lauk, kemudian dibungkus dengan daun pisang dan dikunci dengan lidi, yang lalu dibakar di atas api arang ',
         foodPrice: '15K',
         kel: 'Kelompok 2',
-        phone: ''),
+        phone: '62881024488548'),
     MenuModel(
         foodName: 'Nasi Uduk',
         foodImage: 'assets/img/Nu.jpeg',
         foodDesk:
             'nasi putih yang diaron dan dikukus dengan santan, serta dibumbui dengan pala, kayu manis, jahe, daun serai dan merica',
-        foodPrice: '',
+        foodPrice: '15K',
         kel: 'Kelompok 3',
-        phone: ''),
+        phone: '6281803521460'),
     MenuModel(
         foodName: 'Lontong Sayur',
         foodImage: 'assets/img/Ls.jpeg',
         foodDesk:
             'Lontong sayur menjadi salah satu menu sarapan orang Indonesia. Campuran antara lontong, telur, dan sayur labu ini nikmat serta membuat perut kenyang',
-        foodPrice: '',
+        foodPrice: '10K',
         kel: 'Kelompok 4',
-        phone: ''),
+        phone: '6281218015793'),
     MenuModel(
         foodName: 'Karedok',
         foodImage: 'assets/img/Kr.jfif',
         foodDesk:
             'Karedok dibuat dengan bahan-bahan sayuran mentah antara lain; mentimun, taoge, kol, kacang panjang, ubi, daun kemangi, dan terong atau leunca',
-        foodPrice: '',
+        foodPrice: '15K',
         kel: 'Kelompok 5',
-        phone: ''),
+        phone: '6288291778672'),
     MenuModel(
         foodName: 'Asinan Buah',
         foodImage: 'assets/img/Ab.jpeg',
