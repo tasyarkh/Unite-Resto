@@ -101,7 +101,7 @@ class MenuModel {
         foodName: 'Soto Betawi',
         foodImage: 'assets/img/Sb.jpeg',
         foodDesk:
-            'pastri yang dibuat dengan meletakkan isian di atas adonan, lalu dilipat dan ditutup rapat. Pastel dapat terasa manis atau gurih tergantung dari isian',
+            'Soto Betawi merupakan soto yang khas dari daerah DKI Jakarta. Seperti halnya Soto Madura dan Soto Sulung, soto Betawi juga menggunakan jeroan. Selain jeroan, sering kali organ-organ lain juga disertakan, seperti mata, terpedo, dan juga hati. Daging sapi juga menjadi bahan campuran dalam soto Betawi. Kuah soto Betawi merupakan campuran santan dan susu. Kedua campuran inilah yang membuat rasa soto Betawi begitu khas.\nBahan - bahan :\n -Santan\n -Daging Sapi\n ',
         foodPrice: '25K',
         kel: 'kelompok 1',
         phone: '6281804832206'),
@@ -109,7 +109,7 @@ class MenuModel {
         foodName: 'Nasi Bakar',
         foodImage: 'assets/img/Nb.jpeg',
         foodDesk:
-            'Nasi yang diberi beberapa bumbu dan lauk, kemudian dibungkus dengan daun pisang dan dikunci dengan lidi, yang lalu dibakar di atas api arang ',
+            'Nasi bakar merujuk pada nasi yang diberi beberapa bumbu dan lauk, kemudian dibungkus dengan daun pisang dan dikunci dengan lidi, yang lalu dibakar di atas api arang. Daun pisang yang dibakar pun menghasilkan aroma unik pada nasi. Nasi bakar termasuk Masakan Indonesia yang baru berkembang pada awal dekade 2000-an, dan kemungkinan merupakan turunan dari nasi timbel.\nBahan - bahan :\n -',
         foodPrice: '15K',
         kel: 'Kelompok 2',
         phone: '62881024488548'),
@@ -117,7 +117,7 @@ class MenuModel {
         foodName: 'Nasi Uduk',
         foodImage: 'assets/img/Nu.jpeg',
         foodDesk:
-            'Nasi putih yang diaron dan dikukus dengan santan, serta dibumbui dengan pala, kayu manis, jahe, daun serai dan merica',
+            'Nasi uduk adalah hidangan yang dibuat dari nasi putih yang diaron dan dikukus dengan santan, serta dibumbui dengan pala, kayu manis, jahe, daun serai dan merica. Hidangan ini kini adalah salah satu Hidangan Betawi yang populer.\nBahan - bahan :\n -',
         foodPrice: '15K',
         kel: 'Kelompok 3',
         phone: '6281803521460'),
@@ -125,7 +125,7 @@ class MenuModel {
         foodName: 'Lontong Sayur',
         foodImage: 'assets/img/Ls.jpeg',
         foodDesk:
-            'Lontong sayur menjadi salah satu menu sarapan orang Indonesia. Campuran antara lontong, telur, dan sayur labu ini nikmat serta membuat perut kenyang',
+            'lontong sayur merupakan sajian khas pada Hari Raya Idul Fitri dan Idul Adha. Lontong sayur adalah representasi dari perpaduan budaya yang ada di masyarakat Betawi dan masyarakat Tionghoa. Tak heran selain lontong sayur khas Betawi, kita juga mengenal adanya lontong Cap Go Meh yang seringkali tersaji saat Hari Raya Imlek.\nBahan - bahan :\n -',
         foodPrice: '10K',
         kel: 'Kelompok 4',
         phone: '6281218015793'),
@@ -133,7 +133,7 @@ class MenuModel {
         foodName: 'Karedok',
         foodImage: 'assets/img/Kr.jfif',
         foodDesk:
-            'Karedok dibuat dengan bahan-bahan sayuran mentah antara lain; mentimun, taoge, kol, kacang panjang, ubi, daun kemangi, dan terong atau leunca',
+            'Karedok dibuat dengan bahan-bahan sayuran mentah antara lain; mentimun, taoge, kol, kacang panjang, ubi, daun kemangi, dan terong atau leunca. Sedangkan sausnya adalah bumbu kacang yang dibuat dari cabai merah, bawang putih, kencur, kacang tanah, air asam, gula kawung, garam, dan terasi. Salah satu ciri dari karedok adalah menggunakan oncom bakar. Bila tidak menggunakan oncom bakar disebutnya lotek mentah (atah) walau tidak semua begitu.\nBahan - bahan :\n -',
         foodPrice: '15K',
         kel: 'Kelompok 5',
         phone: '6288291778672'),
@@ -141,7 +141,7 @@ class MenuModel {
         foodName: 'Asinan Buah',
         foodImage: 'assets/img/Ab.jpeg',
         foodDesk:
-            'Asinan manis khas betawi yang berisi buah buahan segar dipadukan kuah asam manis pedas',
+            'Asinan buah dibuat dengan cara pengasinan, direndam di air garam atau diasamkan, direndam dengan air cuka. Asinan buah yang terkenal dan menjadi favorit banyak orang adalah asinan buah Betawi.\nBahan - bahan :\n -',
         foodPrice: '10K',
         kel: 'Kelompok 6',
         phone: '6281387287570'),
@@ -149,7 +149,7 @@ class MenuModel {
         foodName: 'Nasi Pepes',
         foodImage: 'assets/img/des.png',
         foodDesk:
-            'Nasi Pepes yang dikukus dan berisi berbagai macam isisan mulai dari daging ayam cumi dll',
+            'Nasi Pepes merupakan nasi putih yang diberi isian daging ayam atau berbagai isian lainnya yang dibungkus daun pisang lalu dikukus.\nBahan- bahan :\n -',
         foodPrice: '10K',
         kel: 'Kelompok 7',
         phone: '6281218016462'),
@@ -157,7 +157,7 @@ class MenuModel {
         foodName: 'Ketoprak',
         foodImage: 'assets/img/des.png',
         foodDesk:
-            'tahu, bihun, mentimun, taoge, dan bisa juga memakai telur rebus yang dilengkapi dengan saus kacang, kecap manis, dan taburan bawang merah goreng. Dapat pula dihidangkan dengan tambahan kerupuk atau emping melinjo',
+            'Ketoprak merupakan makanan favorit khalayak banyak dengan tahu, bihun, mentimun, taoge, dan bisa juga memakai telur rebus yang dilengkapi dengan saus kacang, kecap manis, dan taburan bawang merah goreng. Dapat pula dihidangkan dengan tambahan kerupuk atau emping melinjo.\nBahan - bahan :\n -',
         foodPrice: '10K',
         kel: 'Kelompok 8',
         phone: '62895365161115'),
@@ -165,7 +165,7 @@ class MenuModel {
         foodName: 'Gado Gado',
         foodImage: 'assets/img/Gd.jpeg',
         foodDesk:
-            'Gado-gado adalah makanan khas Jakarta berisi sayur-sayuran yang direbus, irisan telur dan tahu, serta ditaburi bawang goreng dan kerupuk.',
+            'Gado-gado adalah makanan khas Jakarta berisi sayur-sayuran yang direbus, irisan telur, tahu dan tempe serta ditaburi bawang goreng dan kerupuk.dan dibumbui dengan bumbu kacang.\nBahan - bahan :\n -',
         foodPrice: '15K',
         kel: 'Kelompok 9',
         phone: '6281218016761'),
