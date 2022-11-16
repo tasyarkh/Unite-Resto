@@ -44,7 +44,7 @@ class MenuModel {
         phone: '62881024488548'),
     MenuModel(
         foodName: 'Bakpao Karakter',
-        foodImage: 'assets/img/des.png',
+        foodImage: 'assets/img/bkp.jpg',
         foodDesk:
             'Makanan tradisional Tionghoa. Dikenal sebagai bakpao di Indonesia karena diserap dari bahasa Hokkian yang dituturkan mayoritas orang Tionghoa di Indonesia.\n Bahan - bahan :\n -Tepung Cakra\n -Ragi\n -Tang Mien\n -Gula Pasir\n -Mentega Putih',
         foodPrice: '5K',
@@ -56,7 +56,7 @@ class MenuModel {
   static final List<MenuModel> menuMencourse = [
     MenuModel(
         foodName: 'Risol Mayo',
-        foodImage: 'assets/img/des.png',
+        foodImage: 'assets/img/rsl.png',
         foodDesk:
             'Risol Mayo adalah risol yang berisi mayonnaise, daging asap, telur dan kentang. Terkenal sebagai cemilan sore hari, isian dari risol mayo dilapisi dengan kulit risol yang digulung balur dengan tepung roti yang bikin jajanan ini lebih renyah.\n Bahan - bahan :\n -Tepung Terigu\n -Tepung Tapioka\n -Telur\n -Garam\n -Sosis & Smoke Beef\n -Mayonaise\n -Tepung Roti\n -Susu',
         foodPrice: '5K',
@@ -80,7 +80,7 @@ class MenuModel {
         phone: '6288291778672'),
     MenuModel(
         foodName: 'Roti Goreng',
-        foodImage: 'assets/img/des.png',
+        foodImage: 'assets/img/rt.png',
         foodDesk: 'Roti yang diberi isian sosis lalu dibalurkan tepung terigu dan tepung panir dan digoreng secara deep fried agar menjadikan tekstur bagian luar roti crispy dan bagian dalam sosis dan roti tetap empuk.\nBahan - bahan :\n -Roti Tawar\n -Sosis\n -Tepung Panir\n -Tepung Terigu\n -Minyak\n -Saus Tomat/Sambal',
         foodPrice: '5K',
         kel: 'Kelompok 7',
@@ -147,7 +147,7 @@ class MenuModel {
         phone: '6281387287570'),
     MenuModel(
         foodName: 'Nasi Pepes',
-        foodImage: 'assets/img/des.png',
+        foodImage: 'assets/img/Np.jpg',
         foodDesk:
             'Nasi Pepes merupakan nasi putih yang diberi isian daging ayam atau berbagai isian lainnya yang dibungkus daun pisang lalu dikukus.\nBahan- bahan :\n -',
         foodPrice: '10K',
@@ -155,7 +155,7 @@ class MenuModel {
         phone: '6281218016462'),
     MenuModel(
         foodName: 'Ketoprak',
-        foodImage: 'assets/img/des.png',
+        foodImage: 'assets/img/Ktp.jpg',
         foodDesk:
             'Ketoprak merupakan makanan favorit khalayak banyak dengan tahu, bihun, mentimun, taoge, dan bisa juga memakai telur rebus yang dilengkapi dengan saus kacang, kecap manis, dan taburan bawang merah goreng. Dapat pula dihidangkan dengan tambahan kerupuk atau emping melinjo.\nBahan - bahan :\n -',
         foodPrice: '10K',

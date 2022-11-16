@@ -84,7 +84,11 @@ flutter:
     - assets/img/Tc.jpeg
     - assets/img/Kr.jpeg
     - assets/img/dm.jpg
-    
+    - assets/img/Ktp.jpg
+    - assets/img/Np.jpg
+    - assets/img/rt.png
+    - assets/img/rsl.png
+    - assets/img/bkp.jpg
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
