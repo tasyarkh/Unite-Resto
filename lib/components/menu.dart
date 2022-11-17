@@ -102,7 +102,7 @@ class MenuModel {
         foodName: 'Soto Betawi',
         foodImage: 'assets/img/Sb.jpeg',
         foodDesk:
-            'Soto Betawi merupakan soto yang khas dari daerah DKI Jakarta. Seperti halnya Soto Madura dan Soto Sulung, soto Betawi juga menggunakan jeroan. Selain jeroan, sering kali organ-organ lain juga disertakan, seperti mata, terpedo, dan juga hati. Daging sapi juga menjadi bahan campuran dalam soto Betawi. Kuah soto Betawi merupakan campuran santan dan susu. Kedua campuran inilah yang membuat rasa soto Betawi begitu khas.\nBahan - bahan :\n -Santan\n -Daging Sapi\n -Rempah - rempah\n -Tomat\n -Emping\n',
+            'Soto Betawi merupakan soto yang khas dari daerah DKI Jakarta. Seperti halnya Soto Madura dan Soto Sulung, soto Betawi juga menggunakan jeroan. Selain jeroan, sering kali organ-organ lain juga disertakan, seperti mata, terpedo, dan juga hati. Daging sapi juga menjadi bahan campuran dalam soto Betawi. Kuah soto Betawi merupakan campuran santan dan susu. Kedua campuran inilah yang membuat rasa soto Betawi begitu khas.\nBahan - bahan :\n -Santan\n -Daging Sapi\n -Rempah - rempah\n -Tomat\n -Emping\n -Babat sapi\n -Susu Cair\n -Kaldu Sapi Bubuk\n -Gula\n -Minyak Goreng\n -Kentang\n ',
         foodPrice: '25K',
         kel: 'kelompok 1',
         phone: '6281804832206'),
@@ -110,7 +110,7 @@ class MenuModel {
         foodName: 'Nasi Bakar',
         foodImage: 'assets/img/Nb.jpeg',
         foodDesk:
-            'Nasi bakar merujuk pada nasi yang diberi beberapa bumbu dan lauk, kemudian dibungkus dengan daun pisang dan dikunci dengan lidi, yang lalu dibakar di atas api arang. Daun pisang yang dibakar pun menghasilkan aroma unik pada nasi. Nasi bakar termasuk Masakan Indonesia yang baru berkembang pada awal dekade 2000-an, dan kemungkinan merupakan turunan dari nasi timbel.\nBahan - bahan :\n -',
+            'Nasi bakar merujuk pada nasi yang diberi beberapa bumbu dan lauk, kemudian dibungkus dengan daun pisang dan dikunci dengan lidi, yang lalu dibakar di atas api arang. Daun pisang yang dibakar pun menghasilkan aroma unik pada nasi. Nasi bakar termasuk Masakan Indonesia yang baru berkembang pada awal dekade 2000-an, dan kemungkinan merupakan turunan dari nasi timbel.\nBahan - bahan :\n -Bawang Merah Putih\n -Cabai\n -Fillet Ayam\n -Daun Salam\n -Serai\n -Garam\n -Nasi Putih\n -Gula Merah',
         foodPrice: '15K',
         kel: 'Kelompok 2',
         phone: '62881024488548'),
@@ -118,7 +118,7 @@ class MenuModel {
         foodName: 'Nasi Uduk',
         foodImage: 'assets/img/Nu.jpeg',
         foodDesk:
-            'Nasi uduk adalah hidangan yang dibuat dari nasi putih yang diaron dan dikukus dengan santan, serta dibumbui dengan pala, kayu manis, jahe, daun serai dan merica. Hidangan ini kini adalah salah satu Hidangan Betawi yang populer.\nBahan - bahan :\n -Nasi Putih\n -Mentega\n -Garam\n -Daun pisang\n -Ayam\n -Cabai',
+            'Nasi uduk adalah hidangan yang dibuat dari nasi putih yang diaron dan dikukus dengan santan, serta dibumbui dengan pala, kayu manis, jahe, daun serai dan merica. Hidangan ini kini adalah salah satu Hidangan Betawi yang populer.\nBahan - bahan :\n -Nasi Putih\n -Santan\n -Daun Salam\n -Serai\n -Daun Pandan\n -Garam ',
         foodPrice: '15K',
         kel: 'Kelompok 3',
         phone: '6281803521460'),
@@ -126,7 +126,7 @@ class MenuModel {
         foodName: 'Lontong Sayur',
         foodImage: 'assets/img/Ls.jpeg',
         foodDesk:
-            'lontong sayur merupakan sajian khas pada Hari Raya Idul Fitri dan Idul Adha. Lontong sayur adalah representasi dari perpaduan budaya yang ada di masyarakat Betawi dan masyarakat Tionghoa. Tak heran selain lontong sayur khas Betawi, kita juga mengenal adanya lontong Cap Go Meh yang seringkali tersaji saat Hari Raya Imlek.\nBahan - bahan :\n -Rempah - rempah\n -Labu\n -Lontong\n -Bawang goreng\n -Kacang Panjang\n -Tahu',
+            'lontong sayur merupakan sajian khas pada Hari Raya Idul Fitri dan Idul Adha. Lontong sayur adalah representasi dari perpaduan budaya yang ada di masyarakat Betawi dan masyarakat Tionghoa. Tak heran selain lontong sayur khas Betawi, kita juga mengenal adanya lontong Cap Go Meh yang seringkali tersaji saat Hari Raya Imlek.\nBahan - bahan :\n -Rempah - rempah\n -Labu\n -Lontong\n -Bawang goreng\n -Kacang Panjang\n -Tahu\n -Telur Rebus\n -Gula Pasir\n -Cabai\n',
         foodPrice: '10K',
         kel: 'Kelompok 4',
         phone: '6281218015793'),
@@ -134,7 +134,7 @@ class MenuModel {
         foodName: 'Karedok',
         foodImage: 'assets/img/Kr.jfif',
         foodDesk:
-            'Karedok dibuat dengan bahan-bahan sayuran mentah antara lain; mentimun, taoge, kol, kacang panjang, ubi, daun kemangi, dan terong atau leunca. Sedangkan sausnya adalah bumbu kacang yang dibuat dari cabai merah, bawang putih, kencur, kacang tanah, air asam, gula kawung, garam, dan terasi. Salah satu ciri dari karedok adalah menggunakan oncom bakar. Bila tidak menggunakan oncom bakar disebutnya lotek mentah (atah) walau tidak semua begitu.\nBahan - bahan :\n -Sayuran segar\n -Kacang\n -Cabai\n -Bawang',
+            'Karedok dibuat dengan bahan-bahan sayuran mentah antara lain; mentimun, taoge, kol, kacang panjang, ubi, daun kemangi, dan terong atau leunca. Sedangkan sausnya adalah bumbu kacang yang dibuat dari cabai merah, bawang putih, kencur, kacang tanah, air asam, gula kawung, garam, dan terasi. Salah satu ciri dari karedok adalah menggunakan oncom bakar. Bila tidak menggunakan oncom bakar disebutnya lotek mentah (atah) walau tidak semua begitu.\nBahan - bahan :\n -Sayuran segar\n -Kacang\n -Cabai\n -Bawang\n -Gula Merah\n -Kencur\n -Terasi\n -Asam Jawa\n ',
         foodPrice: '15K',
         kel: 'Kelompok 5',
         phone: '6288291778672'),
@@ -142,7 +142,7 @@ class MenuModel {
         foodName: 'Asinan Buah',
         foodImage: 'assets/img/Ab.jpeg',
         foodDesk:
-            'Asinan buah dibuat dengan cara pengasinan, direndam di air garam atau diasamkan, direndam dengan air cuka. Asinan buah yang terkenal dan menjadi favorit banyak orang adalah asinan buah Betawi.\nBahan - bahan :\n -Buah Segar\n -Cabai\n -Cuka\n -Garam',
+            'Asinan buah dibuat dengan cara pengasinan, direndam di air garam atau diasamkan, direndam dengan air cuka. Asinan buah yang terkenal dan menjadi favorit banyak orang adalah asinan buah Betawi.\nBahan - bahan :\n -Buah Segar\n -Cabai\n -Cuka\n -Garam\n -Gula Pasir\n -Gula Merah\n -Asam Jawa\n ',
         foodPrice: '10K',
         kel: 'Kelompok 6',
         phone: '6281387287570'),
@@ -150,7 +150,7 @@ class MenuModel {
         foodName: 'Nasi Pepes',
         foodImage: 'assets/img/Np.jpg',
         foodDesk:
-            'Nasi Pepes merupakan nasi putih yang diberi isian daging ayam atau berbagai isian lainnya yang dibungkus daun pisang lalu dikukus.\nBahan- bahan :\n -Nasi Putih\n -Daging Ayam\n -Cabai\n -Bawang\n -Garam\n -Daun pisang',
+            'Nasi Pepes merupakan nasi putih yang diberi isian daging ayam atau berbagai isian lainnya yang dibungkus daun pisang lalu dikukus.\nBahan- bahan :\n -Nasi Putih\n -Daging Ayam\n -Cabai\n -Bawang\n -Garam\n -Daun pisang\n -Tomat\n -Daun Kemangi\n -Telur',
         foodPrice: '10K',
         kel: 'Kelompok 7',
         phone: '6281218016462'),
@@ -158,7 +158,7 @@ class MenuModel {
         foodName: 'Ketoprak',
         foodImage: 'assets/img/Ktp.jpg',
         foodDesk:
-            'Ketoprak merupakan makanan favorit khalayak banyak dengan tahu, bihun, mentimun, taoge, dan bisa juga memakai telur rebus yang dilengkapi dengan saus kacang, kecap manis, dan taburan bawang merah goreng. Dapat pula dihidangkan dengan tambahan kerupuk atau emping melinjo.\nBahan - bahan :\n -Lontong\n -Taoge\n -Tahu\n -Mentimun\n -Bawang goreng\n -Emping\n -Bawang putih\n -Cabai\n -Telur',
+            'Ketoprak merupakan makanan favorit khalayak banyak dengan tahu, bihun, mentimun, taoge, dan bisa juga memakai telur rebus yang dilengkapi dengan saus kacang, kecap manis, dan taburan bawang merah goreng. Dapat pula dihidangkan dengan tambahan kerupuk atau emping melinjo.\nBahan - bahan :\n -Lontong\n -Taoge\n -Tahu\n -Mentimun\n -Bawang goreng\n -Emping\n -Bawang putih\n -Cabai\n -Telur\n -Bihun',
         foodPrice: '10K',
         kel: 'Kelompok 8',
         phone: '62895365161115'),
@@ -166,7 +166,7 @@ class MenuModel {
         foodName: 'Gado Gado',
         foodImage: 'assets/img/Gd.jpeg',
         foodDesk:
-            'Gado-gado adalah makanan khas Jakarta berisi sayur-sayuran yang direbus, irisan telur, tahu dan tempe serta ditaburi bawang goreng dan kerupuk.dan dibumbui dengan bumbu kacang.\nBahan - bahan :\n -Sayuran\n -Bumbu kacang\n -Kerupuk\n -Tahu\n -Tempe\n -Telur',
+            'Gado-gado adalah makanan khas Jakarta berisi sayur-sayuran yang direbus, irisan telur, tahu dan tempe serta ditaburi bawang goreng dan kerupuk.dan dibumbui dengan bumbu kacang.\nBahan - bahan :\n -Sayuran\n -Bumbu kacang\n -Kerupuk\n -Tahu\n -Tempe\n -Telur\n -Lontong',
         foodPrice: '15K',
         kel: 'Kelompok 9',
         phone: '6281218016761'),
