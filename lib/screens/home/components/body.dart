@@ -109,12 +109,12 @@ class SearchInput extends StatelessWidget {
                 bottomRight: Radius.circular(15))),
         padding: const EdgeInsets.only(top: 15, left: 40),
         child: const Text(
-          "Science Tech Prestasi Prima",
+          "SAINTEK FAIR PRESMA",
           style: TextStyle(
               color: Colors.orange,
               fontFamily: "Poppins",
               fontSize: 15,
-              fontWeight: FontWeight.w300),
+              fontWeight: FontWeight.w400),
         ),
       ),
     );
@@ -255,7 +255,6 @@ class CardListView extends StatelessWidget {
           ],
         ),
       ),
-      
     );
   }
 }
