@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:unite_resto/style/style.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-
 class pesan extends StatelessWidget {
   final String foodName;
   final String foodImage;
@@ -42,6 +41,8 @@ class pesan extends StatelessWidget {
                 child: Image.asset(
                   foodImage,
                   fit: BoxFit.cover,
+                  height: double.infinity,
+                  width: double.infinity,
                 ),
               ),
             ),

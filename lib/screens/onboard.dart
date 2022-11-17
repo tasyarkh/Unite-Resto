@@ -78,7 +78,7 @@ class onboard extends StatelessWidget {
                       shadows: [
                         Shadow(
                           blurRadius: 10.0,
-                          color: Color(0xFFBD1616).withOpacity(0.4),
+                          color: Color(0xFFBD1616).withOpacity(0.3),
                           offset: Offset(0, 1),
                         )
                       ]),

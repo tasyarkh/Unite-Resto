@@ -37,6 +37,7 @@ dependencies:
   flutter_svg: ^0.17.4
   url_launcher: ^6.1.6
   whatsapp_unilink: ^2.0.2
+
   
   
 
@@ -89,6 +90,8 @@ flutter:
     - assets/img/rt.png
     - assets/img/rsl.png
     - assets/img/bkp.jpg
+    - assets/img/brw.jpg
+    - assets/img/crs.jpg
     
 
   # An image asset can refer to one or more resolution-specific "variants", see

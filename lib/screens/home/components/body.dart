@@ -255,6 +255,7 @@ class CardListView extends StatelessWidget {
           ],
         ),
       ),
+      
     );
   }
 }

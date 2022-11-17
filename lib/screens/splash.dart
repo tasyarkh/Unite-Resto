@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:unite_resto/screens/onboard.dart';
 
+
 class splash extends StatefulWidget {
   _splash createState() => _splash();
 }
