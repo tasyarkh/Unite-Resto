@@ -25,7 +25,7 @@ class MenuModel {
             'Fruit sandwich atau yang juga dikenal dengan sebutan fruit sando adalah sandwich yang menggunakan bahan isian berupa krim kocok dan potongan buah segar\nBahan-Bahan:\n -Roti Tawar\n -Buah\n -Susu Kental Manis\n -Whipe Cream',
         foodPrice: '10K',
         kel: 'kelompok 8',
-        phone: '6289681998961'),
+        phone: '62895365161115'),
     MenuModel(
         foodName: 'Churros',
         foodImage: 'assets/img/crs.jpg',
