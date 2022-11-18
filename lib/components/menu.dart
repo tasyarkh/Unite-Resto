@@ -22,7 +22,7 @@ class MenuModel {
         foodName: 'Fruit Sandwich',
         foodImage: 'assets/img/fs.png',
         foodDesk:
-            'Fruit sandwich atau yang juga dikenal dengan sebutan fruit sando adalah sandwich yang menggunakan bahan isian berupa krim kocok dan potongan buah segar\nBahan-Bahan:\n -Roti Tawar\n -Buah\n -Susu Kental Manis\n -Whipe Cream',
+            'Fruit sandwich atau yang juga dikenal dengan sebutan fruit sando adalah sandwich yang menggunakan bahan isian berupa krim kocok dan potongan buah segar\nBahan-Bahan:\n 1. Roti tawar\n 2. Anggur\n 3. Mangga\n 4. Strawberry\n 5. Kiwi\n 6. Susu kental manis\n 7. Whipe cream',
         foodPrice: '10K',
         kel: 'kelompok 8',
         phone: '62895365161115'),
@@ -30,7 +30,7 @@ class MenuModel {
         foodName: 'Churros',
         foodImage: 'assets/img/crs.jpg',
         foodDesk:
-            'Churro (pengucapan bahasa Spanyol: [ˈtʃuro], pelafalan dalam bahasa Portugis: [ˈʃuʁu]) adalah sebuah makanan ringan berbahan dasar pastri dough goreng, biasanya choux. Churro adalah hidangan tradisional di Spanyol dan Portugal, dimana hidangan tersebut berasal, serta Filipina dan Ibero-Amerika.\nBahan - bahan:\n -Susu UHT\n -Butter\n -Tepung Cakra\n -Garam\n -Telur\n -Gula halus\n -Bubuk kayu manis\n -Selai coklat',
+            'Churro (pengucapan bahasa Spanyol: [ˈtʃuro], pelafalan dalam bahasa Portugis: [ˈʃuʁu]) adalah sebuah makanan ringan berbahan dasar pastri dough goreng, biasanya choux. Churro adalah hidangan tradisional di Spanyol dan Portugal, dimana hidangan tersebut berasal, serta Filipina dan Ibero-Amerika.\nBahan - bahan:\n 1. Susu UHT plain atau air putih\n 2. Butter atau margarin\n 3. Tepung Cakra\n 4. Garam\n 5. Telur\n 6. Gula halus dan bubuk kayu manis\n 7. Butterscotch\n 8. Selai cokelat',
         foodPrice: '15K',
         kel: 'Kelompok 1',
         phone: '6281804832206'),
@@ -38,7 +38,7 @@ class MenuModel {
         foodName: 'Brownies Kukus',
         foodImage: 'assets/img/brw.jpeg',
         foodDesk:
-            'Brownies sering disebut sebagai “Kue Bantat”. yaitu jenis bar cookie kue potong yang padat, kaya akan rasa coklat legit dan lembut Indriani. \nBahan - bahan :\n -Telur\n -Tepung Terigu\n -Coklat Batang dan Bubuk\n -Margarin\n -SP\n -Vanili\n -Baking Powder\n -Susu\n -Gula',
+            'Brownies sering disebut sebagai “Kue Bantat”. yaitu jenis bar cookie kue potong yang padat, kaya akan rasa coklat legit dan lembut Indriani. \nBahan - bahan :\n 1. Telur\n 2. Tepung terigu\n 3. Coklat batang & bubuk\n 4.Margarin\n 5. Sp\n 6. Vanili\n 7. Baking powder\n 8. Susu kental manis\n 9.Keju\n 10. Gula pasir',
         foodPrice: '25K',
         kel: 'Kelompok 2',
         phone: '62881024488548'),
@@ -46,7 +46,7 @@ class MenuModel {
         foodName: 'Bakpao Karakter',
         foodImage: 'assets/img/bkp.jpg',
         foodDesk:
-            'Makanan tradisional Tionghoa. Dikenal sebagai bakpao di Indonesia karena diserap dari bahasa Hokkian yang dituturkan mayoritas orang Tionghoa di Indonesia.\n Bahan - bahan :\n -Tepung Cakra\n -Ragi\n -Tang Mien\n -Gula Pasir\n -Mentega Putih',
+            'Makanan tradisional Tionghoa. Dikenal sebagai bakpao di Indonesia karena diserap dari bahasa Hokkian yang dituturkan mayoritas orang Tionghoa di Indonesia.\n Bahan - bahan :\n 1. Tepung Cakra\n 2. Ragi Instan(Fermipan)\n 3. Air Hangat\n 4. Tepung tang mien\n 5. Tepung terigu\n 6. Gula Pasir\n 7. Mentega Putih\n 8. Susu Cair\n 9. Pewarna Makanan',
         foodPrice: '5K',
         kel: 'Kelompok 6',
         phone: '6281387287570'),
@@ -58,7 +58,7 @@ class MenuModel {
         foodName: 'Risol Mayo',
         foodImage: 'assets/img/rsl.jpeg',
         foodDesk:
-            'Risol Mayo adalah risol yang berisi mayonnaise, daging asap, telur dan kentang. Terkenal sebagai cemilan sore hari, isian dari risol mayo dilapisi dengan kulit risol yang digulung balur dengan tepung roti yang bikin jajanan ini lebih renyah.\n Bahan - bahan :\n -Tepung Terigu\n -Tepung Tapioka\n -Telur\n -Garam\n -Sosis & Smoke Beef\n -Mayonaise\n -Tepung Roti\n -Susu',
+            'Risol Mayo adalah risol yang berisi mayonnaise, daging asap, telur dan kentang. Terkenal sebagai cemilan sore hari, isian dari risol mayo dilapisi dengan kulit risol yang digulung balur dengan tepung roti yang bikin jajanan ini lebih renyah.\n Bahan - bahan :\n 1. Tepung terigu\n 2. Tepung tapioka\n 3. Telur\n 4. Garam\n 5. Minyak goreng\n 6. Sosis\n 7. Beef smoked di potong memanjang\n 8. Mayonaise\n 9. Tepung roti\n 10. Susu kental manis\n 11. Air secukupnya',
         foodPrice: '5K',
         kel: 'Kelompok 3',
         phone: '6281803521460'),
@@ -66,7 +66,7 @@ class MenuModel {
         foodName: 'Kroket',
         foodImage: 'assets/img/Kr.jpeg',
         foodDesk:
-            'Kroket adalah sebuah makanan yang terdiri dari ragout yang dilapisi dengan putih telur dan tepung panir lalu digoreng.\n Bahan - bahan :\n -Kentang\n -Susu Bubuk\n -Daging Sapi\n -Wortel & Seledri\n -Bawang Putih\n -Merica\n -Garam\n -Pala Halus\n -Gula\n -Tepung Terigu\n -Tepung Panir\n -Putih Telur\n -Mentega & Minyak',
+            'Kroket adalah sebuah makanan yang terdiri dari ragout yang dilapisi dengan putih telur dan tepung panir lalu digoreng.\n Bahan - bahan :\n 1. Kentang\n 2. Susu Bubuk\n 3. Daging Sapi\n 4. Wortel & Seledri\n 5. Bawang Putih\n 6. Merica\n 7. Garam\n 8. Pala Halus\n 9. Gula\n 10.Tepung Terigu\n 11.Tepung Panir\n 12. Putih Telur\n 13. Mentega & Minyak',
         foodPrice: '10K',
         kel: 'Kelompok 4',
         phone: '6281218015793'),
@@ -74,7 +74,7 @@ class MenuModel {
         foodName: 'Tahu Crispy',
         foodImage: 'assets/img/Tc.jpeg',
         foodDesk:
-            'Cita rasa dari olahan tahu crispi dengan berbagai bumbu membuat orang penasaran akan kehadirannya dan ingin mencoba. Dengan didirikan kuliner tahu olahan yang tepat akan mengurangi berbagai kelemahan yang ada. Kuliner tahu cripy ini selain menarik masyarakat juga akan digemari oleh anak kos karena harga yang ditawarkan masih terjangkau. Kami juga menyediakan produk mentah yang siap digoreng jika.\nBahan - bahan :\n -Tahu\n -Tepung Terigu\n -Tepung Tapioka\n -Garam\n -Kaldu Bubuk\n -Baking Powder\n -Lada Bubuk\n -Minyak',
+            'Cita rasa dari olahan tahu crispi dengan berbagai bumbu membuat orang penasaran akan kehadirannya dan ingin mencoba. Dengan didirikan kuliner tahu olahan yang tepat akan mengurangi berbagai kelemahan yang ada. Kuliner tahu cripy ini selain menarik masyarakat juga akan digemari oleh anak kos karena harga yang ditawarkan masih terjangkau. Kami juga menyediakan produk mentah yang siap digoreng jika.\nBahan - bahan :\n 1. Tahu\n 2. Tepung Terigu\n 3. Tepung Tapioka\n 4. Garam\n 5. Kaldu Bubuk\n 6. Baking Powder\n 7. Lada Bubuk\n 8. Minyak',
         foodPrice: '10K',
         kel: 'Kelompok 5',
         phone: '6288291778672'),
@@ -82,7 +82,7 @@ class MenuModel {
         foodName: 'Roti Goreng',
         foodImage: 'assets/img/rt.png',
         foodDesk:
-            'Roti yang diberi isian sosis lalu dibalurkan tepung terigu dan tepung panir dan digoreng secara deep fried agar menjadikan tekstur bagian luar roti crispy dan bagian dalam sosis dan roti tetap empuk.\nBahan - bahan :\n -Roti Tawar\n -Sosis\n -Tepung Panir\n -Tepung Terigu\n -Minyak\n -Saus Tomat/Sambal',
+            'Roti yang diberi isian sosis lalu dibalurkan tepung terigu dan tepung panir dan digoreng secara deep fried agar menjadikan tekstur bagian luar roti crispy dan bagian dalam sosis dan roti tetap empuk.\nBahan - bahan :\n 1. Roti Tawar\n 2. Sosis\n 3. Tepung Panir\n 4. Tepung Terigu\n 5. Minyak\n 6. Saus Tomat/Sambal',
         foodPrice: '10K',
         kel: 'Kelompok 7',
         phone: '6281218016462'),
@@ -90,7 +90,7 @@ class MenuModel {
         foodName: 'Pastel',
         foodImage: 'assets/img/Pt.jpeg',
         foodDesk:
-            'Pastri yang dibuat dengan meletakkan isian di atas adonan, lalu dilipat dan ditutup rapat. Pastel dapat terasa manis atau gurih tergantung dari isian.\nBahan - bahan :\n -Tepung Terigu\n -Telur\n -Margarin\n -Kaldu Bubuk\n -Garam\n -Wortel\n -Kentang\n -telur',
+            'Pastri yang dibuat dengan meletakkan isian di atas adonan, lalu dilipat dan ditutup rapat. Pastel dapat terasa manis atau gurih tergantung dari isian.\nBahan - bahan :\n 1. Tepung Terigu\n 2. Telur\n 3. Margarin\n 4. Kaldu Bubuk\n 5. Garam\n 6. Wortel\n 7. Kentang\n 8. Telur',
         foodPrice: '10K',
         kel: 'Kelompok 9',
         phone: '6281218016761'),
