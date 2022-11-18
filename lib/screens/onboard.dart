@@ -21,7 +21,7 @@ class onboard extends StatelessWidget {
             children: <Widget>[
               RichText(
                   text: const TextSpan(
-                      text: "RPL",
+                      text: "XII RPL 2 | RPL",
                       style: TextStyle(
                           color: Colors.orange,
                           fontFamily: "Poppins",
@@ -34,7 +34,7 @@ class onboard extends StatelessWidget {
               ),
               RichText(
                   text: const TextSpan(
-                      text: "IPA",
+                      text: "IPA | XII IPA 2",
                       style: TextStyle(
                           color: Colors.purple,
                           fontFamily: "Poppins",

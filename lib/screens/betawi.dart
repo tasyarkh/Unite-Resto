@@ -84,7 +84,7 @@ class _betawiState extends State<betawi> {
                                       alignment: Alignment.centerLeft,
                                       fit: BoxFit.scaleDown,
                                       child: Text(
-                                        "Cari Makanan \nBetawi Mu",
+                                        "Cari Makanan \nDaerah Mu",
                                         style: TextStyle(
                                             fontSize: 18,
                                             fontWeight: FontWeight.bold,

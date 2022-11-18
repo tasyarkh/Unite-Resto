@@ -109,7 +109,7 @@ class SearchInput extends StatelessWidget {
                 bottomRight: Radius.circular(15))),
         padding: const EdgeInsets.only(top: 15, left: 40),
         child: const Text(
-          "SAINTEK FAIR PRESMA",
+          "SAINTEK FAIR PRESTASI PRIMA",
           style: TextStyle(
               color: Colors.orange,
               fontFamily: "Poppins",
@@ -239,7 +239,7 @@ class CardListView extends StatelessWidget {
                   ),
                 );
               },
-              child: Card("Betawi ", "assets/img/btw.png", "Khas Betawi"),
+              child: Card("Makanan Daerah ", "assets/img/btw.png", "Makanan Daerah"),
             ),
             GestureDetector(
               onTap: () async {
