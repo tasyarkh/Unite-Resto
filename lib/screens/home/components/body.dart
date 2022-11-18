@@ -239,7 +239,8 @@ class CardListView extends StatelessWidget {
                   ),
                 );
               },
-              child: Card("Makanan Daerah ", "assets/img/btw.png", "Makanan Daerah"),
+              child:
+                  Card("Khas Daerah ", "assets/img/btw.png", "Makanan Daerah"),
             ),
             GestureDetector(
               onTap: () async {

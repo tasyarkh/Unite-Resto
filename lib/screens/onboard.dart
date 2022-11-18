@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:unite_resto/style/style.dart';
 import 'home.dart';
 
 class onboard extends StatelessWidget {
@@ -21,7 +22,7 @@ class onboard extends StatelessWidget {
             children: <Widget>[
               RichText(
                   text: const TextSpan(
-                      text: "XII RPL 2 | RPL",
+                      text: "RPL",
                       style: TextStyle(
                           color: Colors.orange,
                           fontFamily: "Poppins",
@@ -34,7 +35,7 @@ class onboard extends StatelessWidget {
               ),
               RichText(
                   text: const TextSpan(
-                      text: "IPA | XII IPA 2",
+                      text: "IPA",
                       style: TextStyle(
                           color: Colors.purple,
                           fontFamily: "Poppins",
@@ -66,7 +67,7 @@ class onboard extends StatelessWidget {
                   left: 50,
                   right: 50,
                   top: 40,
-                  bottom: 70,
+                  bottom: 10,
                 ),
                 child: Text(
                   "Selamat Datang di Unite Resto, Cari dan Pesan Makananan Sesukamu",
@@ -82,6 +83,21 @@ class onboard extends StatelessWidget {
                           offset: Offset(0, 1),
                         )
                       ]),
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(
+                  right: 50,
+                  bottom: 50,
+                ),
+                child: Text(
+                  "Collaboration XII RPL 2 and XII IPA 2",
+                  style: TextStyle(
+                    color: act,
+                    fontSize: 13,
+                    fontFamily: "Poppins",
+                    fontWeight: FontWeight.w400,
+                  ),
                 ),
               ),
               Padding(
